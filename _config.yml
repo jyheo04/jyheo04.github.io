@@ -47,7 +47,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  - title: 프로젝트 # Title for the section
+  - title: projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -88,9 +88,18 @@ content:
           KMeans 군집화를 통해 점포 유형을 구분하고, 군집별 폐업률을 기반으로 위험도를 정량화했습니다.
           RandomForest Classifier로 신규 점포의 폐업 위험을 예측하고, Flask 기반 웹 서비스로 시각화했습니다.
           그 결과 점포별 리스크 진단과 맞춤형 개선 전략을 제시할 수 있는 시스템을 구현했습니다.
-  - title: 대외활동
+  - title: Activities
     layout: list
     content:
+      - layout: left
+        title: 6SIGMA
+        sub_title: 한양대학교ERICA 산업경영공학과 데이터분석 전공학회
+        caption: 2023.03 ~
+        description: | # this will include new lines to allow paragraphs
+          2023.03~2024.02 학회원<br>
+          2024.03~2024.07 기획부장<br>
+          2024.08~2026.02 부학회장<br>
+          2026.03~        학회원
       - layout: left
         title: FIELD
         sub_title: 대한산업공학회 산하 동아리
@@ -109,6 +118,13 @@ content:
         caption: 2025.07 ~ 2025.08
         description: | # this will include new lines to allow paragraphs
           LG Aimers 7기 수료
+      - layout: left
+        title: 모두의 문제 연구소
+        sub_title: 한양대학교ERICA 수리데이터사이언스학과 전공학회
+        caption: 2026.03 ~
+        description: | # this will include new lines to allow paragraphs
+          2026.03~학회원
+
   - title: Education
     layout: list
     content:
@@ -116,7 +132,7 @@ content:
         title: Hanyang University ERICA
         sub_title: undergraduate student in the Department of Industrial Engineering Management
         caption: 2023 ~
-  - title: 자격증
+  - title: Certifications
     layout: list
     content:
       - layout: left
