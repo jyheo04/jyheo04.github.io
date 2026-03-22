@@ -54,8 +54,6 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: 웨이퍼 제조에서의 이상 탐지
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: view
         quote: >
           실시간 탐지 가능성을 염두에 둔 모델 개발
         description: | # this will include new lines to allow paragraphs
