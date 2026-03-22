@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/증명사진2.jpg
 
 # Content configuration version
 version: 2
@@ -39,9 +39,9 @@ linkedin_username: 진영허
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/증명사진2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 한양대학교 ERICA 산업경영공학과 23학번 허진영입니다. 
+  안녕하세요. 한양대학교 ERICA 산업경영공학과 23학번 허진영입니다.
   <mark>탐구</mark>와 <mark>실행</mark>을 기반으로 문제 해결 역량을 발전시켜왔습니다.
   <mark>지속적인 학습<mark>을 통해 성장하는 것을 지향합니다.
 
