@@ -12,8 +12,8 @@ email: jyheo68@hanyang.ac.kr
 # email_title: Email (Email title override)
 phone: +82 01-6701-8862
 # phone_title: Phone (Phone title override)
-Linkedin: https://www.linkedin.com/in/%EC%A7%84%EC%98%81-%ED%97%88-b40140363/
-# website_title: Web (Website title override)
+website: https://www.linkedin.com/in/%EC%A7%84%EC%98%81-%ED%97%88-b40140363/
+website_title: Linkedin
 
 # Dark Mode (true/false/never)
 darkmode: false
