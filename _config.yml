@@ -21,11 +21,7 @@ darkmode: false
 # Social links
 github_username:  jyheo04
 linkedin_username: 진영허
-Additional icon links
-additional_links:
-- title: linkedin
-  icon: in (https://namu.wiki/w/LinkedIn?uuid=3a0cb0f3-266e-4feb-84d6-4319736dcdf4)
-  url: https://www.linkedin.com/in/%EC%A7%84%EC%98%81-%ED%97%88-b40140363/
+
 # Additional icon links
 # additional_links:
 # - title: Link name
