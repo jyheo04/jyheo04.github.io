@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 허진영(Jinyeong Heo)
-title: undergraduate student in the Department of Industrial Engineering Management at Hanyang University ERICA
+title: undergraduate student
 email: jyheo68@hanyang.ac.kr
 # email_title: Email (Email title override)
 phone: +82 01-6701-8862
@@ -49,11 +49,7 @@ about_content: | # this will include new lines to allow paragraphs
   </mark>탐구</mark>와 </mark>실행</mark>을 기반으로 문제 해결 역량을 발전시켜왔습니다.
   </mark>지속적인 학습</mark>을 통해 성장하는 것을 지향합니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
 
 content:
   - title: Projects # Title for the section
@@ -62,20 +58,41 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: 웨이퍼 제조에서의 이상 탐지
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: view
         quote: >
-          Short overview of the project (optional)
+          실시간 탐지 가능성을 염두에 둔 모델 개발
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          고차원·불균형 데이터(1558개 피처, 불량 8%) 환경에서 웨이퍼 이상 탐지 모델을 개발하였습니다.
+          XGBoost를 기반으로 연속형 변수 표준화 및 KMeans-SMOTE를 활용해 데이터 불균형을 개선했습니다.
+          Optuna를 활용한 하이퍼파라미터 튜닝과 임계값 최적화를 통해 모델 성능을 고도화했습니다.
+          평가지표로 F1 Score를 중심으로 설정하여 불균형 데이터에서의 탐지 성능을 강화했습니다.
+          그 결과 Mean F1 0.8997 → 0.9403, Test F1 0.9152로 성능을 향상시켰습니다.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: (LH)지식산업센터 공실률 최소화를 위한 해결방안 및 분석결과 도출
+        quote: >
+          3기 신도시 내 지식산업센터의 공실률을 최소화할 수 있는 계획 수립 방향을 제시
+        description: | # this will include new lines to allow paragraphs
+          수도권 지식산업센터의 공실 증가 문제를 데이터 기반으로 분석하고 예측 모델을 구축하였습니다.
+          유동인구, 상권, 매출 등 다양한 요인을 통합하여 공실률과의 관계를 도출했습니다.
+          RandomForest로 결측 매출을 보정하고, Grid 단위 매출 예측 데이터를 생성했습니다.
+          LSTM 기반 시계열 모델을 활용해 공실률 예측 모델을 설계하고 학습했습니다.
+          그 결과 지역별 공실 패턴을 구분하고, 입지 선정 및 의사결정에 활용 가능한 인사이트를 도출했습니다.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 2025 빅콘테스트
+        quote: >
+          점포 폐업 위험 요인 분석 및 예측 모델 개발
+        description: | # this will include new lines to allow paragraphs
+          자영업 점포의 폐업 위험을 사전에 진단하기 위한 데이터 기반 예측 모델을 구축하였습니다.
+          매출·유동인구·상권 데이터를 통합하고, SVM과 RandomForest를 활용해 결측 보정 및 중요 변수를 도출했습니다.
+          KMeans 군집화를 통해 점포 유형을 구분하고, 군집별 폐업률을 기반으로 위험도를 정량화했습니다.
+          RandomForest Classifier로 신규 점포의 폐업 위험을 예측하고, Flask 기반 웹 서비스로 시각화했습니다.
+          그 결과 점포별 리스크 진단과 맞춤형 개선 전략을 제시할 수 있는 시스템을 구현했습니다.
   - title: Experience
     layout: list
     content:
