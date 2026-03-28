@@ -47,7 +47,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  - title: projects # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
