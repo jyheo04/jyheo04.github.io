@@ -147,6 +147,15 @@ content:
     content:
       - layout: left
         title: SQLD
+  - title: Awards
+    layout: list
+    content:
+      - layout: left
+        title: LG사이언스파크 이공계091 우수활동자 - 장려상
+        caption: 2025
+      - layout: left
+        title: Deep-Tech 창업경진대회 - 시드상
+        caption: 2026
 
   # - title: A Little More About Me
   #   layout: text
