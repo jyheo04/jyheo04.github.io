@@ -53,18 +53,6 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: 소형 독립 카페를 위한 AI 경영 어시스턴트 서비스 개발
-        quote: >
-          2026 Deep-Tech 창업경진대회 참가작 — 데이터 기반 카페 운영 지원으로 소상공인 경영난 해소를 목표
-        description: | # this will include new lines to allow paragraphs
-          국내 카페 폐업률이 14.1%에 달하는 문제의식에서 출발해, 매출 데이터 하나만 업로드하면 분석부터 마케팅까지 지원하는 AI 경영 어시스턴트를 개발하였습니다.
-          FastAPI 백엔드와 React/TypeScript 프론트엔드로 시스템을 구축하고, Gemini API 기반 프롬프트 엔지니어링으로 카페 특화 응답을 구현했습니다.
-          Open-Meteo 날씨 데이터와 매출 데이터를 연계해 요일·기온별 수요를 예측하고 자동 발주량을 산출했습니다.
-          CSV 업로드만으로 매출 4사분면 매트릭스와 시간대별 히트맵을 시각화하고, SNS(인스타그램·카카오) 콘텐츠와 리뷰 답변을 자동 생성했습니다.
-          그 결과 대형 프랜차이즈 수준의 데이터 기반 경영 전략을 소형 독립 카페도 활용할 수 있는 동업 AI 플랫폼을 구현하여 2026 Deep-Tech 창업경진대회에서 성과를 인정받았습니다.
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
         title: 웨이퍼 제조에서의 이상 탐지
         quote: >
           실시간 탐지 가능성을 염두에 둔 모델 개발
@@ -98,6 +86,18 @@ content:
           KMeans 군집화를 통해 점포 유형을 구분하고, 군집별 폐업률을 기반으로 위험도를 정량화했습니다.
           RandomForest Classifier로 신규 점포의 폐업 위험을 예측하고, Flask 기반 웹 서비스로 시각화했습니다.
           그 결과 점포별 리스크 진단과 맞춤형 개선 전략을 제시할 수 있는 시스템을 구현했습니다.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: 소형 독립 카페를 위한 AI 경영 어시스턴트 서비스 개발
+        quote: >
+          2026 Deep-Tech 창업경진대회 참가작 — 데이터 기반 카페 운영 지원으로 소상공인 경영난 해소를 목표
+        description: | # this will include new lines to allow paragraphs
+          국내 카페 폐업률이 14.1%에 달하는 문제의식에서 출발해, 매출 데이터 하나만 업로드하면 분석부터 마케팅까지 지원하는 AI 경영 어시스턴트를 개발하였습니다.
+          FastAPI 백엔드와 React/TypeScript 프론트엔드로 시스템을 구축하고, Gemini API 기반 프롬프트 엔지니어링으로 카페 특화 응답을 구현했습니다.
+          Open-Meteo 날씨 데이터와 매출 데이터를 연계해 요일·기온별 수요를 예측하고 자동 발주량을 산출했습니다.
+          CSV 업로드만으로 매출 4사분면 매트릭스와 시간대별 히트맵을 시각화하고, SNS(인스타그램·카카오) 콘텐츠와 리뷰 답변을 자동 생성했습니다.
+          그 결과 대형 프랜차이즈 수준의 데이터 기반 경영 전략을 소형 독립 카페도 활용할 수 있는 동업 AI 플랫폼을 구현하여 2026 Deep-Tech 창업경진대회에서 성과를 인정받았습니다.
   - title: Activities
     layout: list
     content:
