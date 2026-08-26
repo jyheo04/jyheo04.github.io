@@ -134,6 +134,11 @@ content:
         caption: 2026.03 ~
         description: | # this will include new lines to allow paragraphs
           2026.03~학회원
+      - layout: left
+        title: Gurobi Academic Ambassador
+        caption: 2025.10 ~ 2026.04
+        description: | # this will include new lines to allow paragraphs
+          구로비 엠버서더 수료
 
   - title: Awards
     layout: list
